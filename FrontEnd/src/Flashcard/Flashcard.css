@@ -1,0 +1,73 @@
+.Background{
+    display:flex;
+    flex-direction: column;
+    background-image: url('../assets/Background.png');   
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    
+}
+
+.Flashcard{
+    display: flex;
+    flex-direction: column;
+    background-color: #fffefe;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #fffefe;
+    border-radius: 50px;
+    width: 700px; 
+    height: 500px;
+    margin:0 auto;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.Flashcard::-webkit-scrollbar {
+  display: none;
+}
+
+.ReadingMaterial{
+    overflow-y: scroll;
+    margin: 20px 50px;
+
+}
+.chapter-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: #e5e3e3;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+  width: 200px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .Background {
+     display:flex;
+     flex-direction: column;
+     
+    }
+  
+    .Title {
+      font-size: 24px;
+      color: #fffefe;
+    align-items: center;
+    margin: auto;
+    }
+  
+    .Flashcard {
+      padding: 10px;
+      max-width: 300px;
+    }
+  
+    .ReadingMaterial {
+      font-size: 14px;
+    }
+    .Flashcard::-webkit-scrollbar {
+      display: none;
+    }
+  }

@@ -1,0 +1,52 @@
+.Background{
+    display:flex;
+    flex-direction: column;
+    background-image: url('../assets/Background.png');   
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    
+}
+
+.Profile{
+    display: flex;
+    flex-direction: column;
+    background-color: #fffefe;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #fffefe;
+    border-radius: 50px;
+    width: 700px; 
+    height: 500px;
+    margin:0 auto;
+}
+
+.ReadingMaterial{
+    overflow-y: scroll;
+    margin: 20px 50px;
+
+}
+.break{
+  height: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .Background {
+     display:flex;
+     flex-direction: column;
+     
+    }
+  
+    .Title {
+      font-size: 24px;
+    }
+  
+    .Profile {
+      padding: 10px;
+      max-width: 300px;
+    }
+  
+    .ReadingMaterial {
+      font-size: 14px;
+    }
+  }

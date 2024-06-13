@@ -1,0 +1,20 @@
+.title-container {
+  padding: 20px;
+}
+
+.title {
+  color: #fffefe;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    align-items: center;
+  }
+  .title-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}

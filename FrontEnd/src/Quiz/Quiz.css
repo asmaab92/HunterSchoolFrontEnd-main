@@ -1,0 +1,144 @@
+.Background{
+  display:flex;
+  flex-direction: column;
+  background-image: url('../assets/Background.png');   
+  height:100vh;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  
+}
+h1 {
+  margin-bottom: 0;
+}
+.Quiz{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  align-items: center;
+  padding: 0px;
+  border: 2px solid #fffefe;
+  border-radius: 50px;
+  width: 700px; 
+  height: 500px;
+  margin:0 auto;
+  overflow-y: scroll;
+}
+.Quiz::-webkit-scrollbar {
+  display: none;
+}
+.Top-Bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: baseline;
+  width: 600px;
+}
+.Question-tag{
+font-size: 0.9rem;   
+font-weight: 500;
+  margin-bottom: 0;
+}
+.Ul-tag {
+  padding:0px;
+}
+.LI-tag {
+  height: 4rem;
+}
+.Quiz ul li{
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  
+  width: 50vh;
+  padding-left: 15px;
+  border: 1px solid #a5a5a5;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor:pointer;
+
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  width: 50%; 
+  margin-top: 20px; 
+}
+
+.Next-btn{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: #00000034;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.index{
+  margin:auto;
+}
+
+.Quiz .correct{
+  background-color: #dffff2;
+  border-color: #00d397;
+}
+.Quiz .wrong{
+ background-color: #FFEBEB;
+ border-color: #ff4a4a;
+
+}
+.part-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: #e5e3e3;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+  width: 200px;
+  margin-top: 20px;
+}
+.index{
+  margin: 0;
+}
+
+.bButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: #fffefe;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  
+  width: 200px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 10px;
+}
+@media screen and (max-width: 600px) {
+  .Background {
+   display:flex;
+   flex-direction: column;
+   
+  }
+  .Quiz {
+    padding: 10px;
+    max-width: 300px;
+  }
+  .Quiz ul li{
+    width: 200px;
+    
+  }
+
+}

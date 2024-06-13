@@ -1,0 +1,159 @@
+
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.background {
+  background-image: url("../assets/Background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 100vh;
+  flex-direction: column;
+align-items: center;
+justify-content: center
+}
+
+/* Admin box styling */
+.admin-box {
+  width: 100%;
+  margin-top: 20px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.add-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px;
+  background-color: #f9f9f9;
+  /* border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  margin: 16px 0;
+  max-width: 600px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.add-container h3 {
+  margin: 0;
+  margin-right: 8px; 
+  font-size: 1.5em;
+  color: #333;
+}
+
+.add-container .MuiFab-root {
+  background-color: #3f51b5;
+  color: #fff;
+}
+
+.add-container .MuiFab-root:hover {
+  background-color: #303f9f;
+}
+
+
+
+
+/* Table styling */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.table th.Top-row {
+  background-color: gray;
+  color: white;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+.table th.thred {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/* Form container */
+.add-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 20px 0;
+}
+
+/* Form title */
+.add-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form elements */
+.add-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-form form .MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+.add-form form .MuiButton-root {
+  margin-top: 10px;
+}
+
+/* Button styling */
+.MuiButton-containedPrimary {
+  background-color: #1976d2;
+  color: #fff;
+}
+
+.MuiButton-outlinedSecondary {
+  border-color: #1976d2;
+  color: #1976d2;
+}
+
+/* Back button styling */
+.backButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.backButton:hover {
+  background-color: #1565c0;
+}
+
